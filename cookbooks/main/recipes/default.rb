@@ -66,3 +66,6 @@
 
 #uncomment to include the mysql_replication_check recipe
 #require_recipe "mysql_replication_check"
+
+# home-grown cookbooks
+require_recipe "timezone"
