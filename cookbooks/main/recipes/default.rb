@@ -4,9 +4,6 @@
 #  }
 #end
 
-# uncomment if you want to run postgres recipe
-#require_recipe 'postgres'
-
 # uncomment if you want to run couchdb recipe
 # require_recipe "couchdb"
 
@@ -27,9 +24,6 @@
 
 #uncomment to run the ssmtp recipe
 require_recipe "ssmtp"
-
-#uncomment to run the mongodb recipe
-# require_recipe "mongodb"
 
 #uncomment to run the sunspot recipe
 # require_recipe "sunspot"
@@ -66,6 +60,10 @@ require_recipe "ssmtp"
 
 #uncomment to include the mysql_replication_check recipe
 #require_recipe "mysql_replication_check"
+
+#uncomment to include the mysql_administrative_tools recipe
+# additional configuration of this recipe is required
+#require_recipe "mysql_administrative_tools"
 
 # home-grown cookbooks
 require_recipe "timezone"
