@@ -67,3 +67,4 @@ require_recipe "ssmtp"
 
 # home-grown cookbooks
 require_recipe "timezone"
+require_recipe "whenever"
